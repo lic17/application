@@ -1,4 +1,4 @@
-module sigs.k8s.io/application
+module github.com/lic17/application
 
 go 1.13
 
@@ -17,5 +17,8 @@ require (
 	k8s.io/apiextensions-apiserver v0.17.0
 	k8s.io/apimachinery v0.17.0
 	k8s.io/client-go v0.17.0
+	sigs.k8s.io/application v0.0.0-00010101000000-000000000000
 	sigs.k8s.io/controller-runtime v0.4.0
 )
+
+replace sigs.k8s.io/application => ./
