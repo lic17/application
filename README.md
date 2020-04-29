@@ -1,3 +1,4 @@
+GOOS=linux GOARCH=amd64 go build -tags netgo -ldflags '-linkmode external -extldflags -static -w' -o  kube-app-manager
 [![Build Status](https://travis-ci.org/kubernetes-sigs/application.svg?branch=master)](https://travis-ci.org/kubernetes-sigs/application "Travis")
 [![Go Report Card](https://goreportcard.com/badge/sigs.k8s.io/application)](https://goreportcard.com/report/sigs.k8s.io/application)
 
